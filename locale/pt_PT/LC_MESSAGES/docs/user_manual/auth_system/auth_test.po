@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2002-now, QGIS project
+# This file is distributed under the same license as the QGIS Documentation
+# TEST package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# 
+# Translators:
+# Alexandre Neto <senhor.neto@gmail.com>, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation TEST 3.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-07 23:28+0100\n"
+"PO-Revision-Date: 2020-06-07 22:33+0000\n"
+"Last-Translator: Alexandre Neto <senhor.neto@gmail.com>, 2020\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/qgistest/teams/110592/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../docs/user_manual/auth_system/auth_test.rst:4
+msgid "Authentication test"
+msgstr "Autenticacao teste"
+
+#: ../../docs/user_manual/auth_system/auth_test.rst:11
+msgid ""
+"This is a test to see how the commands handle a new resource for transifex"
+msgstr "Um teste para ver se os comandos para os novos resources funcionam"
