@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Documentation TEST 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-07 10:04+0200\n"
+"POT-Creation-Date: 2020-06-07 23:11+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,8 +58,9 @@ msgstr ""
 
 #: ../../docs/user_manual/auth_system/auth_considerations.rst:33
 msgid ""
-"allowed to access the authentication system, though it may be tricky to "
-"deduce which plugin is actually making the call."
+"allowed test if translation gets updated to access the authentication "
+"system, though it may be tricky to deduce which plugin is actually making"
+" the call."
 msgstr ""
 
 #: ../../docs/user_manual/auth_system/auth_considerations.rst:37
@@ -127,4 +128,15 @@ msgid ""
 "The authentication system safely disables itself when ``qca-ossl`` is not"
 " found at run-time."
 msgstr ""
+
+#: ../../docs/user_manual/auth_system/auth_considerations.rst:75
+msgid "Testing - brand new string to translate."
+msgstr ""
+
+#~ msgid ""
+#~ "allowed to access the authentication "
+#~ "system, though it may be tricky to"
+#~ " deduce which plugin is actually "
+#~ "making the call."
+#~ msgstr ""
 
