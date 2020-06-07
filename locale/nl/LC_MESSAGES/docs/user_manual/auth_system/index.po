@@ -23,4 +23,4 @@ msgstr ""
 
 #: ../../docs/user_manual/auth_system/index.rst:5
 msgid "Authentication System"
-msgstr "Authenticatiesysteem"
+msgstr "TEST Authenticatiesysteem"

@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../docs/user_manual/auth_system/auth_overview.rst:4
 msgid "Authentication System Overview"
-msgstr "Overzicht authenticatiesysteem"
+msgstr "TEST Overzicht authenticatiesysteem"
 
 #: ../../docs/user_manual/auth_system/auth_overview.rst:16
 msgid "Anatomy of authentication system"

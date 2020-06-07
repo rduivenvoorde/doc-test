@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../docs/user_manual/auth_system/auth_considerations.rst:4
 msgid "Security Considerations"
-msgstr "Overwegingen voor beveiliging"
+msgstr "TEST Overwegingen voor beveiliging"
 
 #: ../../docs/user_manual/auth_system/auth_considerations.rst:11
 msgid ""

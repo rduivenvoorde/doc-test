@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../docs/user_manual/auth_system/auth_workflows.rst:4
 msgid "User Authentication Workflows"
-msgstr "Werkstromen voor authenticatie van gebruikers"
+msgstr "TEST Werkstromen voor authenticatie van gebruikers"
 
 #: ../../docs/user_manual/auth_system/auth_workflows.rst:16
 msgid "Generic user workflow"
