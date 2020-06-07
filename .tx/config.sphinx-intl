@@ -43,25 +43,25 @@ source_file = build/gettext/docs/user_manual/appendices/qgis_r_syntax.pot
 source_lang = en
 type = PO
 
-[doctest2.locale-en-lc-messages-docs-user-manual-auth-system-auth-considerations-po--master]
+[doctest2.docs--user_manual--auth_system--auth_considerations]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/auth_system/auth_considerations.po
 source_file = build/gettext/docs/user_manual/auth_system/auth_considerations.pot
 source_lang = en
 type = PO
 
-[doctest2.locale-en-lc-messages-docs-user-manual-auth-system-auth-overview-po--master]
+[doctest2.docs--user_manual--auth_system--auth_overview]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/auth_system/auth_overview.po
 source_file = build/gettext/docs/user_manual/auth_system/auth_overview.pot
 source_lang = en
 type = PO
 
-[doctest2.locale-en-lc-messages-docs-user-manual-auth-system-auth-workflows-po--master]
+[doctest2.docs--user_manual--auth_system--auth_workflows]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/auth_system/auth_workflows.po
 source_file = build/gettext/docs/user_manual/auth_system/auth_workflows.pot
 source_lang = en
 type = PO
 
-[doctest2.locale-en-lc-messages-docs-user-manual-auth-system-index-po--master]
+[doctest2.docs--user_manual--auth_system--index]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/auth_system/index.po
 source_file = build/gettext/docs/user_manual/auth_system/index.pot
 source_lang = en
