@@ -30,7 +30,7 @@ Python, e.g. the authentication database, and encrypted with the master
 password.
 
 * Another option may be to track which plugins the user has specifically
-* allowed
+* allowed test if translation gets updated
   to access the authentication system, though it may be tricky to deduce which
   plugin is actually making the call.
 
@@ -71,5 +71,7 @@ plugin. Maybe.  I don't really know. I'm not a lawyer.
 
 The authentication system safely disables itself when ``qca-ossl`` is not found
 at run-time.
+
+Testing - brand new string to translate.
 
 .. _licensing and exporting: https://www.openssl.org/docs/faq.html
