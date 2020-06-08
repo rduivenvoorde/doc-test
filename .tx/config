@@ -1,43 +1,43 @@
 [main]
 host = https://www.transifex.com
 
-[doctest2.docs--index]
+[doctest2.locale-en-lc-messages-docs-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/index.po
 source_file = build/gettext/docs/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/index.po
 source_file = build/gettext/docs/user_manual/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--appendices--GNU_FDL]
+[doctest2.locale-en-lc-messages-docs-user-manual-appendices-gnu-fdl-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/appendices/GNU_FDL.po
 source_file = build/gettext/docs/user_manual/appendices/GNU_FDL.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--appendices--GNU_GPL]
+[doctest2.locale-en-lc-messages-docs-user-manual-appendices-gnu-gpl-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/appendices/GNU_GPL.po
 source_file = build/gettext/docs/user_manual/appendices/GNU_GPL.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--appendices--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-appendices-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/appendices/index.po
 source_file = build/gettext/docs/user_manual/appendices/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--appendices--qgis_file_formats]
+[doctest2.locale-en-lc-messages-docs-user-manual-appendices-qgis-file-formats-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/appendices/qgis_file_formats.po
 source_file = build/gettext/docs/user_manual/appendices/qgis_file_formats.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--appendices--qgis_r_syntax]
+[doctest2.locale-en-lc-messages-docs-user-manual-appendices-qgis-r-syntax-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/appendices/qgis_r_syntax.po
 source_file = build/gettext/docs/user_manual/appendices/qgis_r_syntax.pot
 source_lang = en
@@ -67,525 +67,494 @@ source_file = build/gettext/docs/user_manual/auth_system/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--grass_integration--grass_integration]
+[doctest2.locale-en-lc-messages-docs-user-manual-grass-integration-grass-integration-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/grass_integration/grass_integration.po
 source_file = build/gettext/docs/user_manual/grass_integration/grass_integration.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--introduction--general_tools]
+[doctest2.locale-en-lc-messages-docs-user-manual-introduction-general-tools-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/introduction/general_tools.po
 source_file = build/gettext/docs/user_manual/introduction/general_tools.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--introduction--getting_started]
+[doctest2.locale-en-lc-messages-docs-user-manual-introduction-getting-started-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/introduction/getting_started.po
 source_file = build/gettext/docs/user_manual/introduction/getting_started.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--introduction--project_files]
+[doctest2.locale-en-lc-messages-docs-user-manual-introduction-project-files-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/introduction/project_files.po
 source_file = build/gettext/docs/user_manual/introduction/project_files.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--introduction--qgis_configuration]
+[doctest2.locale-en-lc-messages-docs-user-manual-introduction-qgis-configuration-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/introduction/qgis_configuration.po
 source_file = build/gettext/docs/user_manual/introduction/qgis_configuration.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--introduction--qgis_gui]
+[doctest2.locale-en-lc-messages-docs-user-manual-introduction-qgis-gui-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/introduction/qgis_gui.po
 source_file = build/gettext/docs/user_manual/introduction/qgis_gui.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--literature_web--literature_and_web_references]
+[doctest2.locale-en-lc-messages-docs-user-manual-literature-web-literature-and-web-references-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/literature_web/literature_and_web_references.po
 source_file = build/gettext/docs/user_manual/literature_web/literature_and_web_references.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--managing_data_source--create_layers]
+[doctest2.locale-en-lc-messages-docs-user-manual-managing-data-source-create-layers-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/managing_data_source/create_layers.po
 source_file = build/gettext/docs/user_manual/managing_data_source/create_layers.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--managing_data_source--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-managing-data-source-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/managing_data_source/index.po
 source_file = build/gettext/docs/user_manual/managing_data_source/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--managing_data_source--opening_data]
+[doctest2.locale-en-lc-messages-docs-user-manual-managing-data-source-opening-data-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/managing_data_source/opening_data.po
 source_file = build/gettext/docs/user_manual/managing_data_source/opening_data.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--managing_data_source--supported_data]
+[doctest2.locale-en-lc-messages-docs-user-manual-managing-data-source-supported-data-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/managing_data_source/supported_data.po
 source_file = build/gettext/docs/user_manual/managing_data_source/supported_data.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/index.po
 source_file = build/gettext/docs/user_manual/plugins/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--plugins]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-plugins-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/plugins.po
 source_file = build/gettext/docs/user_manual/plugins/plugins.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--python_console]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-python-console-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/python_console.po
 source_file = build/gettext/docs/user_manual/plugins/python_console.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--core_plugins--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-core-plugins-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/core_plugins/index.po
 source_file = build/gettext/docs/user_manual/plugins/core_plugins/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--core_plugins--plugins_coordinate_capture]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-core-plugins-plugins-coordinate-capture-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/core_plugins/plugins_coordinate_capture.po
 source_file = build/gettext/docs/user_manual/plugins/core_plugins/plugins_coordinate_capture.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--core_plugins--plugins_db_manager]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-core-plugins-plugins-db-manager-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/core_plugins/plugins_db_manager.po
 source_file = build/gettext/docs/user_manual/plugins/core_plugins/plugins_db_manager.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--core_plugins--plugins_evis]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-core-plugins-plugins-evis-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/core_plugins/plugins_evis.po
 source_file = build/gettext/docs/user_manual/plugins/core_plugins/plugins_evis.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--core_plugins--plugins_geometry_checker]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-core-plugins-plugins-geometry-checker-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/core_plugins/plugins_geometry_checker.po
 source_file = build/gettext/docs/user_manual/plugins/core_plugins/plugins_geometry_checker.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--core_plugins--plugins_georeferencer]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-core-plugins-plugins-georeferencer-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/core_plugins/plugins_georeferencer.po
 source_file = build/gettext/docs/user_manual/plugins/core_plugins/plugins_georeferencer.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--core_plugins--plugins_metasearch]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-core-plugins-plugins-metasearch-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/core_plugins/plugins_metasearch.po
 source_file = build/gettext/docs/user_manual/plugins/core_plugins/plugins_metasearch.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--core_plugins--plugins_offline_editing]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-core-plugins-plugins-offline-editing-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/core_plugins/plugins_offline_editing.po
 source_file = build/gettext/docs/user_manual/plugins/core_plugins/plugins_offline_editing.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--plugins--core_plugins--plugins_topology_checker]
+[doctest2.locale-en-lc-messages-docs-user-manual-plugins-core-plugins-plugins-topology-checker-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/plugins/core_plugins/plugins_topology_checker.po
 source_file = build/gettext/docs/user_manual/plugins/core_plugins/plugins_topology_checker.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--preamble--contributors]
+[doctest2.locale-en-lc-messages-docs-user-manual-preamble-contributors-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/preamble/contributors.po
 source_file = build/gettext/docs/user_manual/preamble/contributors.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--preamble--conventions]
+[doctest2.locale-en-lc-messages-docs-user-manual-preamble-conventions-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/preamble/conventions.po
 source_file = build/gettext/docs/user_manual/preamble/conventions.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--preamble--features]
+[doctest2.locale-en-lc-messages-docs-user-manual-preamble-features-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/preamble/features.po
 source_file = build/gettext/docs/user_manual/preamble/features.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--preamble--foreword]
+[doctest2.locale-en-lc-messages-docs-user-manual-preamble-foreword-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/preamble/foreword.po
 source_file = build/gettext/docs/user_manual/preamble/foreword.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--preamble--help_and_support]
+[doctest2.locale-en-lc-messages-docs-user-manual-preamble-help-and-support-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/preamble/help_and_support.po
 source_file = build/gettext/docs/user_manual/preamble/help_and_support.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--preamble--preamble]
+[doctest2.locale-en-lc-messages-docs-user-manual-preamble-preamble-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/preamble/preamble.po
 source_file = build/gettext/docs/user_manual/preamble/preamble.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--preamble--whats_new]
+[doctest2.locale-en-lc-messages-docs-user-manual-preamble-whats-new-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/preamble/whats_new.po
 source_file = build/gettext/docs/user_manual/preamble/whats_new.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--create_output]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-create-output-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/create_output.po
 source_file = build/gettext/docs/user_manual/print_composer/create_output.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--create_reports]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-create-reports-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/create_reports.po
 source_file = build/gettext/docs/user_manual/print_composer/create_reports.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/index.po
 source_file = build/gettext/docs/user_manual/print_composer/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--overview_composer]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-overview-composer-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/overview_composer.po
 source_file = build/gettext/docs/user_manual/print_composer/overview_composer.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--composer_attribute_table]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-composer-attribute-table-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/composer_attribute_table.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/composer_attribute_table.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--composer_html_frame]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-composer-html-frame-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/composer_html_frame.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/composer_html_frame.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--composer_image]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-composer-image-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/composer_image.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/composer_image.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--composer_items_options]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-composer-items-options-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/composer_items_options.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/composer_items_options.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--composer_items_shape]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-composer-items-shape-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/composer_items_shape.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/composer_items_shape.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--composer_label]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-composer-label-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/composer_label.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/composer_label.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--composer_legend]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-composer-legend-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/composer_legend.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/composer_legend.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--composer_map]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-composer-map-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/composer_map.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/composer_map.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--composer_scale_bar]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-composer-scale-bar-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/composer_scale_bar.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/composer_scale_bar.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--print_composer--composer_items--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-print-composer-composer-items-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/print_composer/composer_items/index.po
 source_file = build/gettext/docs/user_manual/print_composer/composer_items/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--3rdParty]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-3rdParty-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/3rdParty.po
 source_file = build/gettext/docs/user_manual/processing/3rdParty.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--batch]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-batch-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/batch.po
 source_file = build/gettext/docs/user_manual/processing/batch.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--configuration]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-configuration-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/configuration.po
 source_file = build/gettext/docs/user_manual/processing/configuration.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--console]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-console-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/console.po
 source_file = build/gettext/docs/user_manual/processing/console.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--history]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-history-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/history.po
 source_file = build/gettext/docs/user_manual/processing/history.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/index.po
 source_file = build/gettext/docs/user_manual/processing/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--intro]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-intro-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/intro.po
 source_file = build/gettext/docs/user_manual/processing/intro.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--modeler]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-modeler-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/modeler.po
 source_file = build/gettext/docs/user_manual/processing/modeler.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--scripts]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-scripts-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/scripts.po
 source_file = build/gettext/docs/user_manual/processing/scripts.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing--toolbox]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-toolbox-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing/toolbox.po
 source_file = build/gettext/docs/user_manual/processing/toolbox.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing_algs--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-algs-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing_algs/index.po
 source_file = build/gettext/docs/user_manual/processing_algs/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing_algs--qgis--cartography]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-algs-qgis-cartography-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing_algs/qgis/cartography.po
 source_file = build/gettext/docs/user_manual/processing_algs/qgis/cartography.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing_algs--qgis--filetools]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-algs-qgis-filetools-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing_algs/qgis/filetools.po
 source_file = build/gettext/docs/user_manual/processing_algs/qgis/filetools.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--processing_algs--qgis--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-processing-algs-qgis-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/processing_algs/qgis/index.po
 source_file = build/gettext/docs/user_manual/processing_algs/qgis/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--style_library--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-style-library-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/style_library/index.po
 source_file = build/gettext/docs/user_manual/style_library/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--style_library--label_settings]
+[doctest2.locale-en-lc-messages-docs-user-manual-style-library-label-settings-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/style_library/label_settings.po
 source_file = build/gettext/docs/user_manual/style_library/label_settings.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--style_library--style_manager]
+[doctest2.locale-en-lc-messages-docs-user-manual-style-library-style-manager-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/style_library/style_manager.po
 source_file = build/gettext/docs/user_manual/style_library/style_manager.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--style_library--symbol_selector]
+[doctest2.locale-en-lc-messages-docs-user-manual-style-library-symbol-selector-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/style_library/symbol_selector.po
 source_file = build/gettext/docs/user_manual/style_library/symbol_selector.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_gps--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-gps-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_gps/index.po
 source_file = build/gettext/docs/user_manual/working_with_gps/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_gps--live_GPS_tracking]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-gps-live-gps-tracking-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_gps/live_GPS_tracking.po
 source_file = build/gettext/docs/user_manual/working_with_gps/live_GPS_tracking.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_gps--plugins_gps]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-gps-plugins-gps-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_gps/plugins_gps.po
 source_file = build/gettext/docs/user_manual/working_with_gps/plugins_gps.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_mesh--mesh_properties]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-mesh-mesh-properties-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_mesh/mesh_properties.po
 source_file = build/gettext/docs/user_manual/working_with_mesh/mesh_properties.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_ogc--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-ogc-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_ogc/index.po
 source_file = build/gettext/docs/user_manual/working_with_ogc/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_ogc--ogc_client_support]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-ogc-ogc-client-support-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_ogc/ogc_client_support.po
 source_file = build/gettext/docs/user_manual/working_with_ogc/ogc_client_support.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_ogc--server--config]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-ogc-server-config-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_ogc/server/config.po
 source_file = build/gettext/docs/user_manual/working_with_ogc/server/config.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_ogc--server--getting_started]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-ogc-server-getting-started-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_ogc/server/getting_started.po
 source_file = build/gettext/docs/user_manual/working_with_ogc/server/getting_started.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_ogc--server--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-ogc-server-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_ogc/server/index.po
 source_file = build/gettext/docs/user_manual/working_with_ogc/server/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_ogc--server--plugins]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-ogc-server-plugins-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_ogc/server/plugins.po
 source_file = build/gettext/docs/user_manual/working_with_ogc/server/plugins.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_ogc--server--services]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-ogc-server-services-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_ogc/server/services.po
 source_file = build/gettext/docs/user_manual/working_with_ogc/server/services.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_projections--working_with_projections]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-projections-working-with-projections-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_projections/working_with_projections.po
 source_file = build/gettext/docs/user_manual/working_with_projections/working_with_projections.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_raster--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-raster-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_raster/index.po
 source_file = build/gettext/docs/user_manual/working_with_raster/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_raster--raster_analysis]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-raster-raster-analysis-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_raster/raster_analysis.po
 source_file = build/gettext/docs/user_manual/working_with_raster/raster_analysis.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_raster--raster_properties]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-raster-raster-properties-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_raster/raster_properties.po
 source_file = build/gettext/docs/user_manual/working_with_raster/raster_properties.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_vector--attribute_table]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-vector-attribute-table-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_vector/attribute_table.po
 source_file = build/gettext/docs/user_manual/working_with_vector/attribute_table.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_vector--editing_geometry_attributes]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-vector-editing-geometry-attributes-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_vector/editing_geometry_attributes.po
 source_file = build/gettext/docs/user_manual/working_with_vector/editing_geometry_attributes.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_vector--expression]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-vector-expression-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_vector/expression.po
 source_file = build/gettext/docs/user_manual/working_with_vector/expression.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_vector--index]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-vector-index-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_vector/index.po
 source_file = build/gettext/docs/user_manual/working_with_vector/index.pot
 source_lang = en
 type = PO
 
-[doctest2.docs--user_manual--working_with_vector--vector_properties]
+[doctest2.locale-en-lc-messages-docs-user-manual-working-with-vector-vector-properties-po--master]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/working_with_vector/vector_properties.po
 source_file = build/gettext/docs/user_manual/working_with_vector/vector_properties.pot
 source_lang = en
 type = PO
-
-[doctest2.docs--user_manual--auth_system--auth_considerations]
-file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/auth_system/auth_considerations.po
-source_file = build/gettext/docs/user_manual/auth_system/auth_considerations.pot
-source_lang = en
-type = PO
-
-[doctest2.docs--user_manual--auth_system--auth_overview]
-file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/auth_system/auth_overview.po
-source_file = build/gettext/docs/user_manual/auth_system/auth_overview.pot
-source_lang = en
-type = PO
-
-[doctest2.docs--user_manual--auth_system--auth_test]
-file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/auth_system/auth_test.po
-source_file = build/gettext/docs/user_manual/auth_system/auth_test.pot
-source_lang = en
-type = PO
-
-[doctest2.docs--user_manual--auth_system--auth_workflows]
-file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/auth_system/auth_workflows.po
-source_file = build/gettext/docs/user_manual/auth_system/auth_workflows.pot
-source_lang = en
-type = PO
-
-[doctest2.docs--user_manual--auth_system--index]
-file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/auth_system/index.po
-source_file = build/gettext/docs/user_manual/auth_system/index.pot
-source_lang = en
-type = PO
-
