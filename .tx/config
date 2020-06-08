@@ -25,7 +25,7 @@ source_file = build/gettext/docs/user_manual/appendices/GNU_GPL.pot
 source_lang = en
 type = PO
 
-[docstest3.docs--user_manual--appendices--index]
+[docstest3.locale-en-lc-messages-docs-user-manual-appendices-index-po--no-translations]
 file_filter = locale/<lang>/LC_MESSAGES/docs/user_manual/appendices/index.po
 source_file = build/gettext/docs/user_manual/appendices/index.pot
 source_lang = en
