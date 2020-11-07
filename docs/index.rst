@@ -9,7 +9,14 @@ Please have a look into one of the documents below.
 
 .. toctree::
    :maxdepth: 2
+   :caption: For Users
 
-   User Guide/Manual (QGIS 3.10) <user_manual/index>
-   
+   A Gentle Introduction to GIS <gentle_gis_introduction/index>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: For Writers
+
+   Documentation Guidelines <documentation_guidelines/index>
+
 * :ref:`genindex`

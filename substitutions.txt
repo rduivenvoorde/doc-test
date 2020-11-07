@@ -9,7 +9,7 @@
    :width: 1.3em
 .. |3dconfigure| image:: /static/common/mIconProperties.png
    :width: 1.3em
-.. |CURRENT| replace:: 3.10
+.. |CURRENT| replace:: 3.16
 .. |FA| replace:: Follow Along:
 .. |FR| replace:: Further Reading
 .. |IC| replace:: In Conclusion
@@ -22,6 +22,8 @@
 .. |action| image:: /static/common/action.png
    :width: 2em
 .. |actionRun| image:: /static/common/mAction.png
+   :width: 1.5em
+.. |add3DMap| image:: /static/common/mActionAdd3DMap.png
    :width: 1.5em
 .. |addAfsLayer| image:: /static/common/mActionAddAfsLayer.png
    :width: 1.5em
@@ -95,6 +97,8 @@
    :width: 1.5em
 .. |addToProject| image:: /static/common/mAddToProject.png
    :width: 1.5em
+.. |addVectorTileLayer| image:: /static/common/mActionAddVectorTileLayer.png
+   :width: 1.5em
 .. |addVirtualLayer| image:: /static/common/mActionAddVirtualLayer.png
    :width: 1.5em
 .. |addWcsLayer| image:: /static/common/mActionAddWcsLayer.png
@@ -103,7 +107,11 @@
    :width: 1.5em
 .. |addWmsLayer| image:: /static/common/mActionAddWmsLayer.png
    :width: 1.5em
+.. |addXyzLayer| image:: /static/common/mActionAddXyzLayer.png
+   :width: 1.5em
 .. |afs| image:: /static/common/mIconAfs.png
+   :width: 1.5em
+.. |algorithmSelectLocation|  image:: /static/common/mAlgorithmSelectLocation.png
    :width: 1.5em
 .. |alignBottom|  image:: /static/common/mActionAlignBottom.png
    :width: 1.5em
@@ -146,6 +154,10 @@
 .. |auxiliaryStorage| image:: /static/common/mIconAuxiliaryStorage.png
    :width: 1.5em
 .. |basic| image:: /static/common/basic.png
+.. |browserCollapse| image:: /static/common/browser_collapse.png
+   :width: 1.5em
+.. |browserExpand| image:: /static/common/browser_expand.png
+   :width: 1.5em
 .. |buffer| image:: /static/common/buffer.png
    :width: 1.5em
 .. |cad| image:: /static/common/cad.png
@@ -199,6 +211,8 @@
 .. |clearText| image:: /static/common/mIconClearText.png
    :width: 1.5em
 .. |clip| image:: /static/common/clip.png
+   :width: 1.5em
+.. |codeEditor| image:: /static/common/mIconCodeEditor.png
    :width: 1.5em
 .. |collapseTree| image:: /static/common/mActionCollapseTree.png
    :width: 1.5em
@@ -277,6 +291,8 @@
    :width: 1.5em
 .. |dependencies| image:: /static/common/dependencies.png
    :width: 1.5em
+.. |deselectActiveLayer| image:: /static/common/mActionDeselectActiveLayer.png
+   :width: 1.5em
 .. |deselectAll| image:: /static/common/mActionDeselectAll.png
    :width: 1.5em
 .. |diagram| image:: /static/common/diagram.png
@@ -322,12 +338,6 @@
 .. |ellipseExtent| image:: /static/common/mActionEllipseExtent.png
    :width: 1.5em
 .. |ellipseFoci| image:: /static/common/mActionEllipseFoci.png
-   :width: 1.5em
-.. |eventBrowser| image:: /static/common/eVisEventBrowser.png
-   :width: 1.5em
-.. |eventId| image:: /static/common/eVisEventIdTool.png
-   :width: 1.5em
-.. |evisConnect| image:: /static/common/eVisDatabaseConnection.png
    :width: 1.5em
 .. |expandNewTree| image:: /static/common/mActionExpandNewTree.png
    :width: 1.5em
@@ -512,8 +522,14 @@
    :width: 1.5em
 .. |indicatorNoCRS| image:: /static/common/mIndicatorNoCRS.png
    :width: 1.5em
+.. |indicatorNonRemovable| image:: /static/common/mIndicatorNonRemovable.png
+   :width: 1.5em
+.. |indicatorTemporal| image:: /static/common/mIndicatorTemporal.png
+   :width: 1.5em
 .. |inputText| image:: /static/common/inputtext.png
 .. |installPluginFromZip| image:: /static/common/mActionInstallPluginFromZip.png
+   :width: 1.5em
+.. |integer| image:: /static/common/mIconFieldInteger.png
    :width: 1.5em
 .. |interfaceCustomization| image:: /static/common/mActionInterfaceCustomization.png
    :width: 1.5em
@@ -554,6 +570,8 @@
 .. |labelingObstacle| image:: /static/common/labelingObstacle.png
    :width: 1.5em
 .. |labelingRuleBased| image:: /static/common/labelingRuleBased.png
+   :width: 1.5em
+.. |labelmask| image:: /static/common/labelmask.png
    :width: 1.5em
 .. |labelplacement| image:: /static/common/labelplacement.png
    :width: 1.5em
@@ -768,9 +786,13 @@
    :width: 1.5em
 .. |processing| image:: /static/common/processingAlgorithm.png
    :width: 1.5em
+.. |processingHelp| image:: /static/common/mActionEditHelpContent.png
+   :width: 1.5em
 .. |processingHistory| image:: /static/common/history.png
    :width: 1.5em
 .. |processingModel| image:: /static/common/processingModel.png
+   :width: 1.5em
+.. |processingOutput| image:: /static/common/mIconModelOutput.png
    :width: 1.5em
 .. |processingResult| image:: /static/common/processingResult.png
    :width: 1.5em
@@ -864,6 +886,8 @@
 .. |sampling| image:: /static/common/sampling.png
    :width: 1.5em
 .. |saveAsPDF| image:: /static/common/mActionSaveAsPDF.png
+   :width: 1.5em
+.. |saveAsPython| image:: /static/common/mActionSaveAsPython.png
    :width: 1.5em
 .. |saveAsSVG| image:: /static/common/mActionSaveAsSVG.png
    :width: 1.5em
@@ -965,6 +989,8 @@
 .. |sqlQueryBuilder| image:: /static/common/sqlquerybuilder.png
    :width: 1.5em
 .. |srtmFileName| replace:: :file:`srtm_41_19_4326.tif`
+.. |stackedBar| image:: /static/common/stacked-bar.png
+   :width: 1.5em
 .. |start| image:: /static/common/mActionStart.png
    :width: 1.5em
 .. |styleManager| image:: /static/common/mActionStyleManager.png
@@ -989,6 +1015,8 @@
    :width: 1.5em
 .. |tableLayer| image:: /static/common/mIconTableLayer.png
    :width: 1.5em
+.. |temporal| image:: /static/common/temporal.png
+   :width: 1.5em
 .. |text| image:: /static/common/text.png
    :width: 1.5em
 .. |textAnnotation| image:: /static/common/mActionTextAnnotation.png
@@ -1006,6 +1034,8 @@
    :width: 1.5em
 .. |toggleEditing| image:: /static/common/mActionToggleEditing.png
    :width: 1.5em
+.. |toggleSelectedLayers| image:: /static/common/mActionToggleSelectedLayers.png
+   :width: 1.5em
 .. |toolbox| replace:: :menuselection:`Processing --> Toolbox`
 .. |topopologicalEditing| image:: /static/common/mIconTopologicalEditing.png
    :width: 1.5em
@@ -1016,6 +1046,8 @@
 .. |tracking| image:: /static/common/tracking.png
    :width: 1.5em
 .. |transformSettings| image:: /static/common/mActionTransformSettings.png
+   :width: 1.5em
+.. |transformation| image:: /static/common/transformation.png
    :width: 1.5em
 .. |transformed| image:: /static/common/transformed.png
    :width: 1.5em
@@ -1041,6 +1073,8 @@
    :width: 1.5em
 .. |vectorGrid| image:: /static/common/vector_grid.png
    :width: 1.5em
+.. |vectorTileLayer| image:: /static/common/mIconVectorTileLayer.png
+   :width: 1.5em
 .. |vertexTool| image:: /static/common/mActionVertexTool.png
    :width: 1.5em
 .. |vertexToolActiveLayer| image:: /static/common/mActionVertexToolActiveLayer.png
@@ -1058,6 +1092,8 @@
 .. |win| image:: /static/common/win.png
    :width: 1em
 .. |wms| image:: /static/common/mIconWms.png
+   :width: 1.5em
+.. |xyz| image:: /static/common/mIconXyz.png
    :width: 1.5em
 .. |zoomActual| image:: /static/common/mActionZoomActual.png
    :width: 1.5em

@@ -9,7 +9,7 @@
 
 echo "filters:"
 
-for POFILE in `find locale/en -type f -name '*.po'`
+for POFILE in `find source/locale/en -type f -name '*.po'`
 do
   echo "  - filter_type: file"
   echo "    file_format: PO"
@@ -22,10 +22,10 @@ do
   echo ""
 done
 
-#echo "settings:"
-#echo "   language_mapping:"
-#echo "     en: en_US"
-#echo "     nl: nl_NL"
-#echo "     it: it_IT"
-#echo "     de: de_DE"
+echo "settings:"
+echo "   language_mapping:"
+echo "     en: en_US"
+echo "     nl: nl_NL"
+echo "     it: it_IT"
+echo "     de: de_DE"
 

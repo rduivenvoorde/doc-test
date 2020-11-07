@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'QGIS Documentation TEST'
+project = 'QGIS Documentation'
 copyright = '2002-now, QGIS project'
 author = 'QGIS Authors'
 
@@ -39,17 +39,15 @@ html_last_updated_fmt = '%b %d, %Y %H:%M'
 # built documents.
 #
 # The short X.Y version.
-version = '3.10'
+version = '3.16'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'sphinx.ext.imgmath',
     'sphinx.ext.intersphinx',
     'sphinx.ext.doctest',
     'sphinx.ext.extlinks',
-    'sphinx.ext.autodoc',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -61,6 +59,8 @@ templates_path = ['_templates']
 exclude_patterns = [
     'venv',
     'README.rst',
+    'readme_old.rst',
+    'docs/user_manual/working_with_vector/expression_help/*'
 ]
 
 # -- Internationalisation ----------------------------------------------------
@@ -69,6 +69,8 @@ language = 'en'
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
+# Enable numeric figure references
+numfig = True
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -90,7 +92,7 @@ html_theme_options = {
     # includehidden:Specifies if the navigation includes hidden table(s) of contents – that is, any toctree directive that is marked with the :hidden: option. Default: True,
     # 'includehidden': True,
     # canonical_url: This will specify a canonical URL meta link element to tell search engines which URL should be ranked as the primary URL for your documentation. This is important if you have multiple URLs that your documentation is available through. The URL points to the root path of the documentation and requires a trailing slash.
-    'canonical_url': 'https://docs.qgis.org/latest/en/docs/',
+    'canonical_url': 'https://docs.qgis.org/latest/en/',
     # display_version: If True, the version number is shown at the top of the sidebar. Default: True,
     'display_version': True,
     # logo_only: Only display the logo image, do not display the project name at the top of the sidebar. Default: False,
@@ -115,6 +117,10 @@ html_favicon = 'static/common/qgis_logo.ico'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['static']
+
+## Set a bullet character for :menuselection: role
+from sphinx.roles import MenuSelection
+MenuSelection.BULLET_CHARACTER = '\N{BLACK RIGHT-POINTING POINTER}'
 
 ## for rtd themes, creating a html_context for the version/language part
 
@@ -143,7 +149,7 @@ if html_context['isTesting'] or html_context['outdated']:
 
 supported_languages = cfg['supported_languages'].replace(' ','').split(',')
 version_list = cfg['version_list'].replace(' ','').split(',')
-docs_url = 'http://doc-test.qgis.org/'
+docs_url = 'https://docs.qgis.org/'
 
 if version not in version_list:
   raise ValueError('QGIS version is not in version list', version, version_list)
@@ -170,17 +176,17 @@ extlinks = {# api website: docs master branch points to '/' while x.y points to 
 
 context = {
     # 'READTHEDOCS': True,
-    'version_downloads': False,
+    'version_downloads': True,
     'versions': [ [v, docs_url+v] for v in version_list],
     'supported_languages': [ [l, docs_url+version+'/'+l] for l in supported_languages],
-    # 'downloads': [ ['PDF', '/builders.pdf'], ['HTML', '/builders.tgz'] ],
+    'downloads': [ ['PDF', docs_url+version+'/pdf'] , ['HTML', docs_url+version+'/zip'] ],
 
     'display_github': not html_context['outdated'], # Do not display for outdated releases
     'github_user': 'qgis',
-    'github_repo': 'doc-test',
+    'github_repo': 'QGIS-Documentation',
     'github_version': 'master/',
-    'github_url':'https://github.com/qgis/doc-test/edit/master',
-    'transifex_url': 'https://www.transifex.com/qgis/doc-test/translate',
+    'github_url':'https://github.com/qgis/QGIS-Documentation/edit/master',
+    'transifex_url': 'https://www.transifex.com/qgis/qgis-documentation/translate',
 
     'pyqgis_version': pyqgis_version,
     'source_version': source_version,
@@ -195,6 +201,8 @@ else:
 
 # -- Options for LaTeX output --------------------------------------------------
 
+latex_engine = 'xelatex'
+
 # The paper size ('letter' or 'a4').
 latex_paper_size = 'a4'
 
@@ -204,15 +212,17 @@ latex_paper_size = 'a4'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('docs/user_manual/index', 'QGISUserGuide.tex', u'QGIS User Guide', u'QGIS Project', 'manual'),
-  ('docs/pyqgis_developer_cookbook/index', 'PyQGISDeveloperCookbook.tex', u'PyQGIS developer cookbook', u'QGIS Project', 'manual'),
+  ('docs/user_manual/index', 'QGISDesktopUserGuide.tex', f'QGIS Desktop {version} User Guide', u'QGIS Project', 'manual'),
+  ('docs/server_manual/index', 'QGISServerUserGuide.tex', f'QGIS Server {version} User Guide', u'QGIS Project', 'manual'),
+  ('docs/pyqgis_developer_cookbook/index', 'PyQGISDeveloperCookbook.tex', f'PyQGIS {version} developer cookbook', u'QGIS Project', 'manual'),
   ('docs/training_manual/index', 'QGISTrainingManual.tex', u'QGIS Training Manual', u'QGIS Project', 'manual'),
-  ('docs/developers_guide/index', 'QGISDevelopersGuide.tex', u'QGIS Developers Guide', u'QGIS Project', 'manual'),
+  ('docs/documentation_guidelines/index', 'QGISDocumentationGuidelines.tex', u'QGIS Documentation Guidelines', u'QGIS Project', 'manual'),
+  #('docs/developers_guide/index', 'QGISDevelopersGuide.tex', u'QGIS Developers Guide', u'QGIS Project', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+latex_logo = 'static/common/logo.png'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
@@ -228,14 +238,16 @@ latex_use_parts = False
 #latex_use_modindex = True
 
 latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
- 'papersize': 'a4paper',
+  # The paper size ('letterpaper' or 'a4paper').
+    'papersize': 'a4paper',
 
-  # The font size ('10pt', '11pt' or '12pt').
-  #'pointsize': '10pt',
+    # The font size ('10pt', '11pt' or '12pt').
+    #'pointsize': '10pt',
 
-  # Additional stuff for the LaTeX preamble.
-  'preamble': u'''\\usepackage{combelow}
+    # Additional stuff for the LaTeX preamble.
+    'preamble': u'''
+    \\usepackage{combelow}
+    \\setcounter{tocdepth}{2}
     \\usepackage{newunicodechar}
     \\newunicodechar{Ș}{\\cb{S}}
     \\newunicodechar{ș}{\\cb{s}}
@@ -244,8 +256,34 @@ latex_elements = {
     \\newunicodechar{≠}{$\\neq$}
     \\newunicodechar{≥}{$\geq$}
     \\newunicodechar{≤}{$\leq$}
+    \\newunicodechar{π}{$\pi$}
+    \\newunicodechar{㎡}{$m^2$}
+    \\newunicodechar{′}{\ensuremath{^{\prime}}}
+    \\newunicodechar{″}{\ensuremath{^{\prime\prime}}}
     \\newunicodechar{​}{ }'''
 }
+
+# Special case of korean that need different latex settings to work
+if tags.has('ko'):
+    latex_elements = {
+        'inputenc': '',
+        'utf8extra': '',
+        'preamble': '''
+        \\usepackage{fontspec}
+        \\usepackage[space]{xeCJK}
+        \\renewcommand\CJKglue{}
+        \\setCJKmainfont{NanumMyeongjo}''',
+        }
+
+# Special case for hindi that need different setting and typeset
+if tags.has('hi'):
+    latex_elements = {
+        'inputenc': '',
+        'utf8extra': '',
+        'preamble': '''
+        \\usepackage{fontspec}
+        \\setmainfont[Script=Devanagari]{Nakula}''',
+        }
 
 
 # -- Settings for Python code samples testing --------------------------------
@@ -302,10 +340,6 @@ shutil.copytree('qgis-projects/python_cookbook', 'testdata')
 # Prepare environment for QgsApplication
 os.environ['QGIS_AUTH_DB_DIR_PATH'] = tempfile.mkdtemp()
 os.environ['QT_QPA_PLATFORM'] = 'offscreen'
-# For docker:
-if not 'QGIS_CUSTOM_CONFIG_PATH' in os.environ:
-    os.environ['QGIS_CUSTOM_CONFIG_PATH'] = os.environ['QGIS_AUTH_DB_DIR_PATH']
-
 
 from qgis.testing import start_app
 from qgis.testing.mocked import get_iface
@@ -375,4 +409,34 @@ def dump_tree(root):
     _print_children(root, 1)
 
 '''
+doctest_test_doctest_blocks = ''
 
+doctest_global_cleanup = '''
+from qgis.core import QgsProject
+QgsProject.instance().clear()
+'''
+
+# Make Sphinx doctest insensitive to object address differences,
+# also 'output_....' processing alg ids
+import doctest
+import re
+import sphinx.ext.doctest as ext_doctest
+
+
+ADDRESS_RE = re.compile(r'\b0x[0-9a-f]{1,16}\b|_[a-z0-9]{8}_[a-z0-9]{4}_[a-z0-9]{4}_[a-z0-9]{4}_[a-z0-9]{12}')
+
+class BetterDocTestRunner(ext_doctest.SphinxDocTestRunner):
+    def __init__(self, checker=None, verbose=None, optionflags=0):
+        checker = BetterOutputChecker()
+        doctest.DocTestRunner.__init__(self, checker, verbose, optionflags)
+
+class BetterOutputChecker(doctest.OutputChecker):
+    def check_output(self, want, got, optionflags):
+        # Patch to test tasks output (which is in random order)
+        if want.startswith('Random') or got.startswith('Random'):
+            return True
+        want = ADDRESS_RE.sub('0x7f00ed991e80', want)
+        got = ADDRESS_RE.sub('0x7f00ed991e80', got)
+        return doctest.OutputChecker.check_output(self, want, got, optionflags)
+
+ext_doctest.SphinxDocTestRunner = BetterDocTestRunner
