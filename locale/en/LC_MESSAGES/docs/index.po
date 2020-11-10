@@ -1,15 +1,15 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2002-now, QGIS project
 # This file is distributed under the same license as the QGIS Documentation
-# TEST package.
+# package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation TEST 3.10\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-07 10:04+0200\n"
+"POT-Creation-Date: 2020-11-10 03:48+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,19 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../docs/index.rst:10
-msgid "User Guide/Manual (QGIS 3.10)"
+msgid "A Gentle Introduction to GIS"
+msgstr ""
+
+#: ../../docs/index.rst:10
+msgid "For Users"
+msgstr ""
+
+#: ../../docs/index.rst:16
+msgid "Documentation Guidelines"
+msgstr ""
+
+#: ../../docs/index.rst:16
+msgid "For Writers"
 msgstr ""
 
 #: ../../docs/index.rst:4
@@ -34,7 +46,7 @@ msgstr ""
 msgid "Please have a look into one of the documents below."
 msgstr ""
 
-#: ../../docs/index.rst:15
+#: ../../docs/index.rst:22
 msgid ":ref:`genindex`"
 msgstr ""
 
