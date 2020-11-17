@@ -2,129 +2,129 @@
 host = https://www.transifex.com
 lang_map = zh-Hant: zh_Hant, zh-Hans: zh_Hans
 
-[test316_Init.docs--index]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_index]
 file_filter = locale/<lang>/LC_MESSAGES/docs/index.po
-source_file = build/gettext/docs/index.pot
+source_file = locale/en/LC_MESSAGES/docs/index.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--documentation_guidelines--cookbook_guidelines]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_documentation_guidelines_cookbook_guidelines]
 file_filter = locale/<lang>/LC_MESSAGES/docs/documentation_guidelines/cookbook_guidelines.po
-source_file = build/gettext/docs/documentation_guidelines/cookbook_guidelines.pot
+source_file = locale/en/LC_MESSAGES/docs/documentation_guidelines/cookbook_guidelines.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--documentation_guidelines--do_translations]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_documentation_guidelines_do_translations]
 file_filter = locale/<lang>/LC_MESSAGES/docs/documentation_guidelines/do_translations.po
-source_file = build/gettext/docs/documentation_guidelines/do_translations.pot
+source_file = locale/en/LC_MESSAGES/docs/documentation_guidelines/do_translations.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--documentation_guidelines--first_contribution]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_documentation_guidelines_first_contribution]
 file_filter = locale/<lang>/LC_MESSAGES/docs/documentation_guidelines/first_contribution.po
-source_file = build/gettext/docs/documentation_guidelines/first_contribution.pot
+source_file = locale/en/LC_MESSAGES/docs/documentation_guidelines/first_contribution.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--documentation_guidelines--index]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_documentation_guidelines_index]
 file_filter = locale/<lang>/LC_MESSAGES/docs/documentation_guidelines/index.po
-source_file = build/gettext/docs/documentation_guidelines/index.pot
+source_file = locale/en/LC_MESSAGES/docs/documentation_guidelines/index.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--documentation_guidelines--substitutions]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_documentation_guidelines_substitutions]
 file_filter = locale/<lang>/LC_MESSAGES/docs/documentation_guidelines/substitutions.po
-source_file = build/gettext/docs/documentation_guidelines/substitutions.pot
+source_file = locale/en/LC_MESSAGES/docs/documentation_guidelines/substitutions.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--documentation_guidelines--writing]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_documentation_guidelines_writing]
 file_filter = locale/<lang>/LC_MESSAGES/docs/documentation_guidelines/writing.po
-source_file = build/gettext/docs/documentation_guidelines/writing.pot
+source_file = locale/en/LC_MESSAGES/docs/documentation_guidelines/writing.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--authors_and_contributors]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_authors_and_contributors]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/authors_and_contributors.po
-source_file = build/gettext/docs/gentle_gis_introduction/authors_and_contributors.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/authors_and_contributors.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--coordinate_reference_systems]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_coordinate_reference_systems]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/coordinate_reference_systems.po
-source_file = build/gettext/docs/gentle_gis_introduction/coordinate_reference_systems.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/coordinate_reference_systems.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--data_capture]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_data_capture]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/data_capture.po
-source_file = build/gettext/docs/gentle_gis_introduction/data_capture.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/data_capture.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--gnu_free_documentation_license]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_gnu_free_documentation_license]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/gnu_free_documentation_license.po
-source_file = build/gettext/docs/gentle_gis_introduction/gnu_free_documentation_license.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/gnu_free_documentation_license.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--index]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_index]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/index.po
-source_file = build/gettext/docs/gentle_gis_introduction/index.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/index.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--introducing_gis]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_introducing_gis]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/introducing_gis.po
-source_file = build/gettext/docs/gentle_gis_introduction/introducing_gis.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/introducing_gis.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--map_production]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_map_production]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/map_production.po
-source_file = build/gettext/docs/gentle_gis_introduction/map_production.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/map_production.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--preamble]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_preamble]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/preamble.po
-source_file = build/gettext/docs/gentle_gis_introduction/preamble.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/preamble.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--raster_data]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_raster_data]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/raster_data.po
-source_file = build/gettext/docs/gentle_gis_introduction/raster_data.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/raster_data.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--spatial_analysis_interpolation]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_spatial_analysis_interpolation]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/spatial_analysis_interpolation.po
-source_file = build/gettext/docs/gentle_gis_introduction/spatial_analysis_interpolation.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/spatial_analysis_interpolation.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--topology]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_topology]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/topology.po
-source_file = build/gettext/docs/gentle_gis_introduction/topology.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/topology.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--vector_attribute_data]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_vector_attribute_data]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/vector_attribute_data.po
-source_file = build/gettext/docs/gentle_gis_introduction/vector_attribute_data.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/vector_attribute_data.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--vector_data]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_vector_data]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/vector_data.po
-source_file = build/gettext/docs/gentle_gis_introduction/vector_data.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/vector_data.po
 source_lang = en
 type = PO
 
-[test316_Init.docs--gentle_gis_introduction--vector_spatial_analysis_buffers]
+[test316_InitBulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_vector_spatial_analysis_buffers]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.po
-source_file = build/gettext/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.pot
+source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/vector_spatial_analysis_buffers.po
 source_lang = en
 type = PO
 
