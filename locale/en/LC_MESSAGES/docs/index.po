@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: QGIS Documentation TEST 3.10\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-06-07 10:04+0200\n"
+"POT-Creation-Date: 2020-11-19 06:54+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Generated-By: Babel 2.8.0\n"
 
 #: ../../docs/index.rst:10
-msgid "The great User Guide/Manual (QGIS 3.10)"
+msgid "The great User Guide/Manual (QGIS 3.16)"
 msgstr ""
 
 #: ../../docs/index.rst:4
@@ -31,10 +31,16 @@ msgid "QGIS has a lot of documentation, partly translated."
 msgstr ""
 
 #: ../../docs/index.rst:8
-msgid "Please have a look into one of the documents below."
+msgid "Please have a look into one of the documents below. Yes do it!"
 msgstr ""
 
 #: ../../docs/index.rst:15
 msgid ":ref:`genindex`"
 msgstr ""
+
+#~ msgid "The great User Guide/Manual (QGIS 3.10)"
+#~ msgstr ""
+
+#~ msgid "Please have a look into one of the documents below."
+#~ msgstr ""
 
