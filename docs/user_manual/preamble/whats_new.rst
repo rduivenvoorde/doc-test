@@ -11,7 +11,8 @@ previous releases.
 This release includes hundreds of bug fixes and many new features and
 enhancements over |QGIS_CURRENT|_ that will be described in this manual.
 You may also review the visual changelogs at https://qgis.org/en/site/forusers/visualchangelogs.html.
+Worth the look!!!
 
 
-.. |QGIS_CURRENT| replace:: QGIS 3.4
-.. _QGIS_CURRENT: https://docs.qgis.org/3.4/en/docs/
+.. |QGIS_CURRENT| replace:: QGIS 3.10
+.. _QGIS_CURRENT: https://docs.qgis.org/3.10/en/docs/
