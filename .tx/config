@@ -44,7 +44,7 @@ source_file = locale/en/LC_MESSAGES/docs/documentation_guidelines/writing.po
 source_lang = en
 type = PO
 
-[test316_initbulk.locale_en_LC_MESSAGES_docs_gentle_gis_introduction_authors_and_contributors]
+[test316_initbulk.locale-en-lc-messages-docs-gentle-gis-introduction-authors-and-contributors-po--tr316initbulktest]
 file_filter = locale/<lang>/LC_MESSAGES/docs/gentle_gis_introduction/authors_and_contributors.po
 source_file = locale/en/LC_MESSAGES/docs/gentle_gis_introduction/authors_and_contributors.po
 source_lang = en
