@@ -1,34 +1,39 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2002-now, QGIS project
-# This file is distributed under the same license as the QGIS Documentation package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# This file is distributed under the same license as the QGIS Documentation
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
 # 
 # Translators:
-# Richard Duivenvoorde <richard@duif.net>, 2020
 # Sant-anna <delazj@gmail.com>, 2020
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation 3.10\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-05 01:57+0200\n"
-"PO-Revision-Date: 2020-03-16 19:16+0000\n"
+"POT-Creation-Date: 2020-11-10 03:48+0100\n"
+"PO-Revision-Date: 2020-11-22 14:41+0000\n"
 "Last-Translator: Sant-anna <delazj@gmail.com>, 2020\n"
-"Language-Team: French (https://www.transifex.com/qgis/teams/6144/fr/)\n"
+"Language-Team: French (https://www.transifex.com/qgistest/teams/110592/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:4
 msgid "About the authors & contributors"
-msgstr "À propos des auteurs et des contributeurs"
+msgstr ""
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:7
 msgid "|tim|"
-msgstr "|tim|"
+msgstr ""
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:7
 msgid ""
@@ -39,16 +44,14 @@ msgid ""
 "helping people to learn and use opensource GIS software. **Web**: "
 "https://www.kartoza.com **Email**: tim@kartoza.com"
 msgstr ""
-"Tim Sutton --- Rédacteur en chef et auteur principal. Tim Sutton est "
-"développeur et membre du comité directeur du projet QGIS. Il est passionné "
-"de voir le SIG être librement accessible à tous. Tim est également membre "
-"fondateur de Linfiniti Consulting CC. --- une petite entreprise créée dans "
-"le but d'aider les gens à apprendre et à utiliser un logiciel SIG open "
-"source. **Web**: https://www.kartoza.com **Courriel**: tim@kartoza.com"
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:15
 msgid "|otto|"
-msgstr "|otto|"
+msgstr ""
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:15
 msgid ""
@@ -58,15 +61,14 @@ msgid ""
 "Open Source GIS software. **Web**: http://www.nature-consult.de **Email**: "
 "otto.dassau@gmx.de"
 msgstr ""
-"Otto Dassau --- Auteur adjoint. Otto Dassau est le responsable de la "
-"documentation et membre du comité de pilotage du projet QGIS. Otto possède "
-"une expérience considérable dans l'utilisation et la formation de personnes "
-"à l'utilisation de logiciels SIG gratuits et open source. **Web**: "
-"http://www.nature-consult.de **Courriel**: otto.dassau@gmx.de"
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:21
 msgid "|marcelle|"
-msgstr "|marcelle|"
+msgstr ""
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:21
 msgid ""
@@ -76,16 +78,14 @@ msgid ""
 "helping people to learn and use opensource GIS software. **Web**: "
 "https://kartoza.com **Email**: marcelle@kartoza.com"
 msgstr ""
-"Marcelle Sutton --- Gestionnaire de projet. Marcelle Sutton a étudié "
-"l'anglais et le théâtre et est enseignante qualifiée. Marcelle est également"
-" membre fondateur de Linfiniti Consulting CC. --- une petite entreprise "
-"créée dans le but d'aider les gens à apprendre et à utiliser un logiciel SIG"
-" open source. **Web**: https://kartoza.com **Courriel**: "
-"marcelle@kartoza.com"
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:27
 msgid "|lerato|"
-msgstr "|lerato|"
+msgstr ""
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:27
 msgid ""
@@ -93,13 +93,14 @@ msgid ""
 "Pretoria. Lerato learns Geography at school and has enjoyed learning GIS "
 "with us!"
 msgstr ""
-"Lerato Nsibande –-- Présentateur vidéo. Lerato est un diplômé de grade 12 "
-"vivant à Prétoria. Lerato a appris la géographie à l'école et a pris du "
-"plaisir à apprendre la géomatique avec nous !"
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:31
 msgid "|sibongile|"
-msgstr "|sibongile|"
+msgstr ""
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
 
 #: ../../docs/gentle_gis_introduction/authors_and_contributors.rst:31
 msgid ""
@@ -107,7 +108,5 @@ msgid ""
 "with her young daughter. Her goal is to continue her studies and become a "
 "nurse. Working on this project was the first time Sibongile used a computer."
 msgstr ""
-"Sibongile Mthombeni –-- Présentatrice video. Sibongile vie près de "
-"Johannesburg avec sa jeune fille. Son objectif est de continuer ses études "
-"afin de devenir infirmière.  En travaillant sur ce projet Sibongile a "
-"utilisé un ordinateur pour la première fois."
+"this file has currently (23/11 afternoon) same key in the .tx/config file so"
+" it should trigger at 100%. Let's try"
